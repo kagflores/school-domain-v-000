@@ -13,7 +13,7 @@ attr_reader :name, :grade, :student
   def add_student(student, grade)
     @student=student
     @grade=grade
-    
+
     if roster.has_key?(grade)
       binding.pry
       roster[grade] << student
