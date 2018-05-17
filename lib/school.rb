@@ -24,4 +24,5 @@ attr_accessor :roster
 
   def grade(grade)
     puts roster[grade]
+  end
 end
