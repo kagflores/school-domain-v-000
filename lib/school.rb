@@ -21,4 +21,7 @@ attr_accessor :roster
       roster[grade] << student
     end
   end
+
+  def grade(grade)
+    puts roster[grade]
 end
