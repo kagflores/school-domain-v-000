@@ -14,7 +14,6 @@ attr_accessor :roster
     @grade=grade
 
     if roster.has_key?(grade)
-      binding.pry
       roster[grade] << student
     else
       roster[grade] = grade
