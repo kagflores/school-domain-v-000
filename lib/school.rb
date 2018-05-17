@@ -23,7 +23,7 @@ attr_accessor :roster
   end
 
   def grade(grade)
-    students = roster["grade"][students]
+    students = roster["grade"][student]
     puts students
   end
 end
