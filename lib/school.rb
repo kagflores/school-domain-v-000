@@ -5,7 +5,7 @@ attr_reader :name, :grade, :student
 attr_accessor :roster
   def initialize(name)
     @name=name
-    roster = {}
+    @roster = {}
   end
 
 
